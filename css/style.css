@@ -26,7 +26,8 @@ h2 {
   }
 
 #lobby {
-    cursor: url(../img/mapguy.png);
+    cursor: url("../img/mapguy.png"), auto;
+    text-align: center;
 }
 
 a:link {
@@ -34,4 +35,12 @@ a:link {
   }  
 a {
     color: white;
+}
+
+#pin {
+    position: fixed;
+    right: 1px;
+    bottom: 10%;
+    margin-top: 0%;
+    padding-top: 0%;
 }
