@@ -3,6 +3,13 @@ body {
     color: white;
 }
 
+h1 {
+    font-family: "adobe-garamond-pro", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 150px;
+}
+
 h2 {
     font-family: "adobe-garamond-pro", serif;
     font-weight: 600;
@@ -20,4 +27,11 @@ h2 {
 
 #lobby {
     cursor: url(../img/mapguy.png);
+}
+
+a:link {
+    text-decoration: none;
+  }  
+a {
+    color: white;
 }
