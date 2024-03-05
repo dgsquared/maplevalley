@@ -40,6 +40,7 @@ h3 {
 #lobby {
     cursor: url("../img/mapguy.png"), auto;
     text-align: center;
+    width: 100%;
 }
 
 a:link {
