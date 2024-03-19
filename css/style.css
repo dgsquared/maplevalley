@@ -27,6 +27,16 @@ h3 {
     text-align: center;
 }
 
+h4 {
+    font-family: "adobe-garamond-pro", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px; 
+    border: 2px solid white;
+    display: inline; 
+    padding: 5px;
+}
+
 .center {
     display: block;
     margin-top: 50px;
@@ -99,4 +109,51 @@ form {
     justify-content: center;
     column-gap: 20%;
     margin-bottom: 0%;
+}
+.flight h3 {
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.cutaway {
+    display: flex;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.cutaway img {
+    display: block;
+    transform: scale(50%);
+}
+.cutaway div {
+    text-align: center;
+    margin: 25px;
+}
+
+#pink {
+    color: #ff9897;
+}
+#orange {
+    color: #ffc228;
+}
+#purple {
+    color: #d393e7;
+}
+
+.focus {
+    display: flex;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%; 
+}
+.focus img {
+    display: block;
+    transform: scale(110%);
+}
+.focus div {
+    text-align: center;
+    margin: 25px;
 }
