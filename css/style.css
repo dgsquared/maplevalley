@@ -108,14 +108,17 @@ a {
     position: sticky;
 }
 
+section div {
+    position: relative;
+    bottom: 11rem;
+    margin: auto;
+}
+
 form {
-    left: 40%;
-    right: 40%;
     text-align: center;
-    position: fixed;
-    top: 60%;
     z-index: 998;
 }
+
 
 #icarus {
     position: fixed;
