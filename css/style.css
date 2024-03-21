@@ -123,7 +123,7 @@ form {
 
 
 #icarus {
-    position: fixed;
+    position: absolute;
     top: 25%;
     left: 40%;
     max-width: 20%;
@@ -185,4 +185,14 @@ form {
     text-align: center;
     margin: 25px;
 }
+
+@media screen and (max-width 768px) {
+    body {
+        background-color: aqua;
+    }
+    #Welcome {
+        transform: scale(50%);
+    }
+}
+
 
