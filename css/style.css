@@ -186,12 +186,17 @@ form {
     margin: 25px;
 }
 
-@media screen and (max-width 768px) {
-    body {
-        background-color: aqua;
-    }
+@media screen and (max-width: 768px) {
+
     #Welcome {
-        transform: scale(50%);
+        font-size: 50px;
+        margin: auto;
+    }
+
+    #pin {
+        position: fixed;
+        top: 30%;
+        margin: auto;
     }
 }
 
